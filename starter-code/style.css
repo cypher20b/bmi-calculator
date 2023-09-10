@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Inter";
+    src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("woff2-variations"), 
+        url("assets/fonts/static/Inter-Regular.ttf") format("woff2"),
+        url("assets/fonts/static/Inter-SemiBold.ttf") format("woff2");
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: normal;
+  }
+
+  body{
+    font-family: 'Inter';
+    margin: 0px;
+  }
+
+  .container{
+    display: flex;
+  }
+
+  .rectangle-6{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    width: 978px;
+    height: 737px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 35px 35px;
+    background: var(--Gradient-1, linear-gradient(290deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 100%));
+
+  }
+  .game-icons{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-top: 75px;
+    margin-left: 116px;
+  }
+  .body-mass{
+    color: var(--Gunmetal, #253347);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 70.4px */
+    letter-spacing: -3.2px;
+  }
+  .frame-58{
+    display: flex;
+    width: 564px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    margin-top: 127px;
+    margin-left: 116px;
+  }
+
+  .better-understand{
+    width: 465px;
+    color: var(--Dark-Electric-Blue, #5E6E85);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+
+
+
+  .frame-6{
+    display: flex;
+    width: 564px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px; 
+
+    /* padding: 32px;  */
+    position: absolute;
+    top: 166px;
+    right: 140px;
+    border-radius: 16px;
+    background: var(--Pure-White, #FFF);
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+  }
+
+
+  .enter-data{
+    color: var(--Gunmetal, #253347);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  .radio-options{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .options{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex: 1 0 0;
+  }
+
+  .options label{
+    color: var(--Gunmetal, #253347);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+  }
+  .frame-64{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .height-weight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+  }
+
+  .height-weight label{
+    color: #5E6E85;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+  }
+
+  .height-weight input{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    width: 100%;
+  }
+  .unit{
+    color: var(--Blue, #345FF6);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  .frame-61{
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 16px 999px 999px 16px;
+    background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+  }
+
+  .bmi-suggestion{
+    flex: 1 0 0;
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+  }
+
+  .bmi-range{
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+
+  .bmi-msg{
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+  }
+
+  .score{
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -3.2px;
+  }
+  .hw-options{
+    display: flex;
+    padding: 20px 24px;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #D8E2E7;
+    background: var(--Pure-White, #FFF);
+  }
+  .hw-options input{
+    border: none;
+  }
